@@ -1,0 +1,6 @@
+[
+  {"id":"S01","language":"en","text":"URGENT: Your KYC is blocked. Verify at http://example.com and share the OTP.","expected":"high"},
+  {"id":"S02","language":"en","text":"Your refund is ready. Pay the UPI processing fee immediately.","expected":"medium"},
+  {"id":"S03","language":"en","text":"Reminder: your appointment is tomorrow at 10 AM.","expected":"low"},
+  {"id":"S04","language":"hi","text":"आपका केवाईसी बंद है। ओटीपी साझा करके तुरंत सत्यापन करें।","expected":"high"}
+]
