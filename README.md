@@ -37,6 +37,8 @@ Install the generated APK from `app/build/outputs/apk/debug/` on an Android test
 - `ProtectionService`: quiet foreground protection service
 - `SecureStore`: Android Keystore-backed encrypted evidence storage
 
+Detailed architecture is documented in [`docs/TECHNICAL_DESIGN.md`](docs/TECHNICAL_DESIGN.md). Sample inputs are in [`sample-data/scam_samples.json`](sample-data/scam_samples.json), with expected detector and manual device cases in [`docs/TEST_CASES.md`](docs/TEST_CASES.md).
+
 ## Privacy and safety
 
 Core analysis is performed locally in this prototype. Evidence capsules are encrypted on-device and are not uploaded automatically. The app does not move money, request banking credentials, or guarantee detection of every scam. Users should independently verify warnings and contact their bank or 1930 after suspected fraud.
